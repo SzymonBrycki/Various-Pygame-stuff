@@ -24,6 +24,8 @@ clock = pygame.time.Clock()
 
 ballImage = pygame.image.load("IMG/ball.png")
 bounceSound = pygame.mixer.Sound("SOUND/boing.wav")
+pygame.mixer.music.load("SOUND/background.mp3")
+pygame.mixer.music.play(-1, 0.0)
 
 # 5 - Inicjalizacja zmiennych
 
